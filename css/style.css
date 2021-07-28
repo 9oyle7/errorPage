@@ -1,0 +1,75 @@
+html, body {
+   
+    margin: 0;
+    padding: 0;
+    height: 100%;
+   
+    background: linear-gradient(-53deg, #45108a 2%, #3d065f 29%, #12054e 100%, #10054d 100%);
+}
+body {
+    font-family: 'Cairo', sans-serif;
+    transition: 3s;
+    font-size: 30px;
+}
+
+
+
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+[ login ]*/
+
+.limiter {
+  width: 100%;
+  margin: 0 auto;
+}
+.login100-text {
+    color: #fff;
+    text-align: center;
+}
+.login100-text p.try {
+    color: #afafaf;
+}
+.login100-text p.system {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.login100-text p.try.en {
+    color: #afafaf;
+}
+.login100-text p.system.en {
+    font-weight: bold;
+    direction: ltr;
+}
+p {
+    margin: 0;
+}
+
+img.logo {
+  width: 120px;
+}
+@media (max-width: 992px) {
+  .header-logo {
+    text-align: center;
+}
+}
+.container-login100 {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+/*------------------------------------------------------------------
+[  ]*/
+
